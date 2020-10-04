@@ -18,7 +18,7 @@ app.use(cors());
 // routes
 app.use('/proxy', routesProxy);
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../vue-client/dist')));
 
 app.listen(app.get('port'), () => {
 	console.log(`server on port ${app.get('port')}`);

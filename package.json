@@ -6,7 +6,8 @@
   "scripts": {
     "dev-server": "nodemon src/server.js --ignore 'vue-client/'",
     "dev-vue-client": "npm run serve --prefix vue-client",
-    "dev": "concurrently \"npm run dev-server\" \"npm run dev-vue-client\""
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-vue-client\"",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
