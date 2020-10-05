@@ -12,3 +12,4 @@ npm install
 npm run build
 npm run start
 ```
+By default the server listens on port 4000.
